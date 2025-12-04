@@ -35,6 +35,8 @@ public class Practice {
 		System.out.println("Data : " + value);
 		
 		wb.close();
+		
+		System.out.println("Test Script data");
 
 	}
 
