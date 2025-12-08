@@ -88,8 +88,8 @@ public class CreateProductTest extends BaseClass {
 
 		Reporter.log("Product got created", true);
 		System.out.println(System.getProperty("Username"));
-		
-		System.out.println("********************");
+		//Printing
+		System.out.println("***************");
 	}
 
 }
