@@ -77,8 +77,8 @@ public class BaseClass {
 
 	@BeforeClass
 	public void beforeClass() throws IOException {
-//		String browser = prop.getKey("browser");
-		String browser = System.getProperty("Browser");
+		String browser = prop.getKey("browser");
+//		String browser = System.getProperty("Browser");
 		// Launching browser
 
 		switch (browser) {
