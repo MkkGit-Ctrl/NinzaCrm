@@ -13,7 +13,7 @@ public class HomePage {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "//span[text()= 'Create Campaign']")
+	@FindBy(xpath = "//button[@class='btn btn-info']")
 	private WebElement createCampaignElement;
 
 	@FindBy(xpath = "//div[starts-with(@class ,'Toastify__toast To')]")
