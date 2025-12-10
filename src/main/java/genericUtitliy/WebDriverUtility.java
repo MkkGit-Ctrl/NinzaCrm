@@ -31,7 +31,7 @@ public class WebDriverUtility {
 	public WebDriverUtility(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		this.driver = driver;
-		wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		action = new Actions(driver);
 		
 	}
