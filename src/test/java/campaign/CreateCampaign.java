@@ -14,7 +14,7 @@ import objectRepository.CampaignPage;
 public class CreateCampaign extends BaseClass {
 
 	@Test
-	public void createCampainWithMandatoryFields() throws IOException, InterruptedException {
+	public void createCampainWithMandatoryFields_test() throws IOException, InterruptedException {
 		String ramdomString = java.getRandomString();
 		// Campaign page
 		// TestScript data
