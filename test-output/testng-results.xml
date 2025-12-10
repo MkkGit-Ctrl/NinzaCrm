@@ -32,37 +32,37 @@
       <![CDATA[DB connectivity close]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-12-10T16:01:18 IST" name="Default suite" finished-at="2025-12-10T16:01:33 IST" duration-ms="15169">
+  <suite started-at="2025-12-10T16:33:03 IST" name="Default suite" finished-at="2025-12-10T16:33:21 IST" duration-ms="18735">
     <groups>
     </groups>
-    <test started-at="2025-12-10T16:01:18 IST" name="Default test" finished-at="2025-12-10T16:01:33 IST" duration-ms="15169">
+    <test started-at="2025-12-10T16:33:03 IST" name="Default test" finished-at="2025-12-10T16:33:21 IST" duration-ms="18735">
       <class name="campaign.CreateCampaign">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:campaign.CreateCampaign@6aaceffd]" started-at="2025-12-10T16:01:18 IST" name="beforeSuite" finished-at="2025-12-10T16:01:18 IST" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:campaign.CreateCampaign@10aa41f2]" started-at="2025-12-10T16:33:03 IST" name="beforeSuite" finished-at="2025-12-10T16:33:03 IST" duration-ms="10" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[DB connectivity open]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:campaign.CreateCampaign@6aaceffd]" started-at="2025-12-10T16:01:18 IST" name="beforeTest" finished-at="2025-12-10T16:01:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:campaign.CreateCampaign@10aa41f2]" started-at="2025-12-10T16:33:03 IST" name="beforeTest" finished-at="2025-12-10T16:33:03 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[pre conditions]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:campaign.CreateCampaign@6aaceffd]" started-at="2025-12-10T16:01:18 IST" name="beforeClass" finished-at="2025-12-10T16:01:21 IST" duration-ms="3221" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:campaign.CreateCampaign@10aa41f2]" started-at="2025-12-10T16:33:03 IST" name="beforeClass" finished-at="2025-12-10T16:33:07 IST" duration-ms="4494" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Launching]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="login()[pri:0, instance:campaign.CreateCampaign@6aaceffd]" started-at="2025-12-10T16:01:21 IST" name="login" finished-at="2025-12-10T16:01:22 IST" duration-ms="1159" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:campaign.CreateCampaign@10aa41f2]" started-at="2025-12-10T16:33:07 IST" name="login" finished-at="2025-12-10T16:33:09 IST" duration-ms="1682" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createCampainWithMandatoryFields()[pri:0, instance:campaign.CreateCampaign@6aaceffd]" started-at="2025-12-10T16:01:22 IST" name="createCampainWithMandatoryFields" finished-at="2025-12-10T16:01:31 IST" duration-ms="8386" status="PASS">
+        <test-method signature="createCampainWithMandatoryFields()[pri:0, instance:campaign.CreateCampaign@10aa41f2]" started-at="2025-12-10T16:33:09 IST" name="createCampainWithMandatoryFields" finished-at="2025-12-10T16:33:17 IST" duration-ms="8249" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[------createCampainWithMandatoryFieldsExecution Started -----]]>
@@ -72,28 +72,28 @@
             </line>
           </reporter-output>
         </test-method> <!-- createCampainWithMandatoryFields -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:campaign.CreateCampaign@6aaceffd]" started-at="2025-12-10T16:01:31 IST" name="logout" finished-at="2025-12-10T16:01:33 IST" duration-ms="1905" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:campaign.CreateCampaign@10aa41f2]" started-at="2025-12-10T16:33:17 IST" name="logout" finished-at="2025-12-10T16:33:21 IST" duration-ms="3881" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logout]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:campaign.CreateCampaign@6aaceffd]" started-at="2025-12-10T16:01:33 IST" name="quit" finished-at="2025-12-10T16:01:33 IST" duration-ms="451" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:campaign.CreateCampaign@10aa41f2]" started-at="2025-12-10T16:33:21 IST" name="quit" finished-at="2025-12-10T16:33:21 IST" duration-ms="369" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[close the browser]]>
             </line>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:campaign.CreateCampaign@6aaceffd]" started-at="2025-12-10T16:01:33 IST" name="afterTest" finished-at="2025-12-10T16:01:33 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:campaign.CreateCampaign@10aa41f2]" started-at="2025-12-10T16:33:21 IST" name="afterTest" finished-at="2025-12-10T16:33:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[post conditions]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:campaign.CreateCampaign@6aaceffd]" started-at="2025-12-10T16:01:33 IST" name="afterSuite" finished-at="2025-12-10T16:01:33 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:campaign.CreateCampaign@10aa41f2]" started-at="2025-12-10T16:33:21 IST" name="afterSuite" finished-at="2025-12-10T16:33:21 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[DB connectivity close]]>
