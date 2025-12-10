@@ -41,6 +41,7 @@ public class CreateProductTest extends BaseClass {
 		String quantity = util.getDatafromExcelFile("Sheet1", 1, 2);
 		String price = util.getDatafromExcelFile("Sheet1", 1, 3);
 		String vendor = util.getDatafromExcelFile("Sheet1", 1, 4);
+		System.out.println("sdkjnoiewsnopewnpowejopvjmpews;ofjop;ewjfwejf");
 
 		/*
 		 * Testscript starts here
@@ -68,7 +69,6 @@ public class CreateProductTest extends BaseClass {
 		String toastElementClass = home.getToastElement().getDomAttribute("class");
 		System.out.println(toastElementClass);
 		Thread.sleep(3000);
-		System.out.println("sdkjnoiewsnopewnpowejopvjmpews;ofjop;ewjfwejf");
 
 		// Verification
 //		SoftAssert assert1 = new SoftAssert();
