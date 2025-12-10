@@ -43,30 +43,42 @@ public class CreateProductTest extends BaseClass {
 		String vendor = util.getDatafromExcelFile("Sheet1", 1, 4);
 		System.out.println("sdkjnoiewsnopewnpowejopvjmpews;ofjop;ewjfwejf");
 
+		Thread.sleep(2000);
 		/*
 		 * Testscript starts here
 		 */
 		// Click on product in navigation bar
 		home.getProductLink().click();
+		Thread.sleep(2000);
 		// click on create product
 		productpage.getAddProductButton().click();
+		Thread.sleep(2000);
 		// Enter Product name
 		product.getProductName().sendKeys(productName);
+		Thread.sleep(2000);
 		// Select category
 		driverUtility.selectTheOption(product.getCategory(), category);
+		Thread.sleep(2000);
 		// Enter quanntity
 		product.getQuantityElement().sendKeys(quantity);
+		Thread.sleep(2000);
 		// Enter price
 		product.getUnitElement().clear();
+		Thread.sleep(2000);
 		product.getUnitElement().sendKeys(price);
+		Thread.sleep(2000);
 		// Select vendor
 		driverUtility.selectTheOption(product.getVendorElement(), vendor);
+		Thread.sleep(2000);
 		// Click on add product
 		product.getAddProduct().click();
+		Thread.sleep(2000);
 		// Wait for toastmesg to be visible
 		driverUtility.waitForElementToBeVisible(home.getToastElement());
+		Thread.sleep(2000);
 		// Capturing class
 		String toastElementClass = home.getToastElement().getDomAttribute("class");
+		Thread.sleep(2000);
 		System.out.println(toastElementClass);
 		Thread.sleep(3000);
 
