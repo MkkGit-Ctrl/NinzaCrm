@@ -60,7 +60,7 @@ public class ListenerImplementation implements ISuiteListener, ITestListener {
 		report.attachReporter(spark);
 		report.setSystemInfo("OS", "Windows");
 		report.setSystemInfo("Browser", "Chrome");
-		Reporter.log("Rpoert config", true);
+		Reporter.log("Report config", true);
 	}
 
 	@Override
@@ -102,8 +102,8 @@ public class ListenerImplementation implements ISuiteListener, ITestListener {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		String ss = ts.getScreenshotAs(OutputType.BASE64);
 		test.addScreenCaptureFromBase64String(ss, methodName + currentdata);
-		test.log(Status.FAIL, "------" + result.getMethod().getMethodName() + "not Executed-----");
-		Reporter.log("------" + result.getMethod().getMethodName() + "not Executed -----", true);
+		test.log(Status.FAIL, "------" + result.getMethod().getMethodName() + " not Executed-----");
+		Reporter.log("------" + result.getMethod().getMethodName() + " not Executed -----", true);
 
 	}
 
