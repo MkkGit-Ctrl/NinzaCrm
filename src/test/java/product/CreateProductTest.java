@@ -68,6 +68,7 @@ public class CreateProductTest extends BaseClass {
 		String toastElementClass = home.getToastElement().getDomAttribute("class");
 		System.out.println(toastElementClass);
 		Thread.sleep(3000);
+		System.out.println("sdkjnoiewsnopewnpowejopvjmpews;ofjop;ewjfwejf");
 
 		// Verification
 //		SoftAssert assert1 = new SoftAssert();
