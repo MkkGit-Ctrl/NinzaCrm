@@ -18,7 +18,7 @@ public class Practice {
 		// Physical representation of java file
 		FileInputStream file = new FileInputStream("C:\\Users\\Mohit\\Desktop\\xcelfile.xlsx");
 
-		// Opening of the file in read mode
+		// Openin	g of the file in read mode
 		Workbook wb = WorkbookFactory.create(file);
 
 		// Select the Sheet

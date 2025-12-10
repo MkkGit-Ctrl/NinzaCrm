@@ -41,8 +41,7 @@ public class CreateProductTest extends BaseClass {
 		String quantity = util.getDatafromExcelFile("Sheet1", 1, 2);
 		String price = util.getDatafromExcelFile("Sheet1", 1, 3);
 		String vendor = util.getDatafromExcelFile("Sheet1", 1, 4);
-		
-		
+
 		/*
 		 * Testscript starts here
 		 */
