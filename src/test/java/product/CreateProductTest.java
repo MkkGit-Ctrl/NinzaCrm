@@ -29,7 +29,7 @@ public class CreateProductTest extends BaseClass {
 			"C:\\Users\\Mohit\\Desktop\\AdvanceSelenium\\AdvanceSelenium\\src\\test\\resources\\productData.xlsx");
 
 	@Test
-	public void createProduct_test() throws EncryptedDocumentException, IOException, InterruptedException {
+	public void createProduct() throws EncryptedDocumentException, IOException, InterruptedException {
 		// Pom classes
 		ProductPage productpage = new ProductPage(super.driver);
 		CreateProductPage product = new CreateProductPage(super.driver);
