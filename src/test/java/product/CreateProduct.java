@@ -22,14 +22,14 @@ import objectRepository.CreateProductPage;
 import objectRepository.ProductPage;
 
 @Listeners(listeners.ListenerImplementation.class)
-public class CreateProductTest extends BaseClass {
+public class CreateProduct extends BaseClass {
 	// Utilities
 	// Excel data
 	ExcelUtitlity util = new ExcelUtitlity(
 			"C:\\Users\\Mohit\\Desktop\\AdvanceSelenium\\AdvanceSelenium\\src\\test\\resources\\productData.xlsx");
 
 	@Test
-	public void createProduct() throws EncryptedDocumentException, IOException, InterruptedException {
+	public void createProduct_test() throws EncryptedDocumentException, IOException, InterruptedException {
 		// Pom classes
 		ProductPage productpage = new ProductPage(super.driver);
 		CreateProductPage product = new CreateProductPage(super.driver);

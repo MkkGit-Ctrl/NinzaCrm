@@ -11,10 +11,10 @@ import genericUtitliy.ExcelUtitlity;
 import objectRepository.CampaignPage;
 
 @Listeners(listeners.ListenerImplementation.class)
-public class CreateCampaign extends BaseClass {
+public class CreateCampaignTest extends BaseClass {
 
 	@Test
-	public void createCampainWithMandatoryFields_test() throws IOException, InterruptedException {
+	public void createCampainWithMandatoryFields() throws IOException, InterruptedException {
 		String ramdomString = java.getRandomString();
 		// Campaign page
 		// TestScript data
