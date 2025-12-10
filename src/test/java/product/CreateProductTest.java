@@ -48,6 +48,7 @@ public class CreateProductTest extends BaseClass {
 		// Click on product in navigation bar
 		home.getProductLink().click();
 		// click on create product
+		driverUtility.waitForElementToBeClickable(productpage.getAddProductButton());
 		productpage.getAddProductButton().click();
 		// Enter Product name
 		product.getProductName().sendKeys(productName);
