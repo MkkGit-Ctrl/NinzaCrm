@@ -86,6 +86,12 @@ public class CreateProductTest extends BaseClass {
 		Assert.assertFalse(toastElementClass.contains("Toastify__toast Toastify__toast--error"), "Product not Created");
 
 		Reporter.log("Product got created", true);
+		System.out.println(System.getProperty("Username"));
+		//Printing
+		System.out.println("***************");
+		
+		//2nd commit
+		System.out.println(" ");
 	}
 
 }
