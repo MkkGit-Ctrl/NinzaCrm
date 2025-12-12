@@ -103,7 +103,7 @@ public class BaseClass {
 			FirefoxOptions options = new FirefoxOptions();
 			options.setProfile(profile);
 			System.out.println(browser);
-			this.driver = new FirefoxDriver(options);
+			this.driver = new FirefoxDriver();
 			System.out.println("2");
 			this.home = new HomePage(this.driver);
 			this.driverUtility = new WebDriverUtility(this.driver);
