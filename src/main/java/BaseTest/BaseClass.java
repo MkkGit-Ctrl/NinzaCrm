@@ -102,7 +102,9 @@ public class BaseClass {
 			// Attach profile to FirefoxOptions
 			FirefoxOptions options = new FirefoxOptions();
 			options.setProfile(profile);
+			System.out.println("1");
 			this.driver = new FirefoxDriver(options);
+			System.out.println("2");
 			this.home = new HomePage(this.driver);
 			this.driverUtility = new WebDriverUtility(this.driver);
 			ListenerImplementation.setDriver(this.driver);
